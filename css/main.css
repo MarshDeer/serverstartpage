@@ -86,12 +86,11 @@
 
 	nav {
 		color:                          darkgray;
-		font-family:                    sans-serif;
+		font:                    	small-caps 1em sans-serif;
 		float:                          left;
 		width:                          30%;
 		border-left:                    2px dotted var(--thegoodplace);
 		margin-left:                    5%;
-		font-variant:                   all-petite-caps;
 	}
 
 /* Responsive Design */
