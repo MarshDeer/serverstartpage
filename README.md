@@ -5,4 +5,4 @@ This repo hosts my home server's startpage.
 [Live Demo](http://MarshDeer.github.io/serverstartpage)
 
 ## Screenshot
-<img src="scrot.png">
+<img src="screenshot.png">
