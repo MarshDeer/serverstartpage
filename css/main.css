@@ -38,11 +38,14 @@
 		bottom:                         0%;
 		left:                           50%;
 		transform:                      translateX(-50%);
-		filter:				drop-shadow(0 2em 0.5em #0003);
 		width:                          50vw;
-		animation:			couchfadein ease-in-out .5s;
+	}
+
+	img.couch {
+		animation:			couchfadein ease-in-out .7s;
 		animation-iteration-count:	1;
 		animation-fill-mode:		forwards;
+		filter:				drop-shadow(0 2em 0.5em #0003);
 	}
 		@keyframes couchfadein {
 			0% {
@@ -55,24 +58,51 @@
 			}
 		}
 
+	img.sit {
+		pointer-events:			none;
+		animation:			sitfadein ease-out .5s;
+		animation-iteration-count:	1;
+		animation-fill-mode:		both;
+		opacity:			0;
+		filter:				drop-shadow(0 0.5em 0.5em #0008);
+	}
+
+	img.chimken {
+		animation-delay:		300ms;
+	}
+
+	img.deer {
+		animation-delay:		150ms;
+	}
+
+		@keyframes sitfadein {
+			0% {
+				opacity:	0%;
+				bottom:		20%;
+			}
+			100% {
+				opacity:	100%;
+				bottom:		0%;
+			}
+		}
+
 	main {
 		width:                          60%;
 		position:                       absolute;
-		top:                            35%;
+		top:                            30%;
 		left:                           50%;
 		transform:                      translateX(-50%);
 		animation:			navfadein ease-in-out .7s;
 		animation-iteration-count:	1;
-		animation-fill-mode:		forwards;
 	}
 		@keyframes navfadein {
 			0% {
 				opacity:	0%;
-				top:		10%;
+				top:		20%;
 			}
 			100% {
 				opacity:	100%;
-				top:		35%;
+				top:		30%;
 			}
 		}
 
