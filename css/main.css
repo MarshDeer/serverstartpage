@@ -147,7 +147,8 @@
 			width:                  100vw;
 		}
 
-		li:hover a {
+		li:hover a,
+		li:active a {
 			left:			0;
 			padding-left:		0;
 			letter-spacing:		0.5em;
