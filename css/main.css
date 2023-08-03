@@ -154,3 +154,16 @@
 			letter-spacing:		0.5em;
 		}
 	}
+
+/* Accessibility */
+	@media screen and (prefers-reduced-motion) {
+		* {
+			transition:		none !important;
+			animation:		none !important;
+		}
+
+		img.sit {
+			bottom:			0%;
+			opacity:		100%;
+		}
+	}
